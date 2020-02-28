@@ -9,7 +9,7 @@ $( document ).ready(function() {
 
       if ( d != null ) {
         dataArray[k] = localStorage.getItem("data_" + k);
-        $('#imageslist').append("<a href='https://kushalarya.github.io/camera-app?img=data_1' > Image " + k + "</a><br/></br>" );
+        $('#imageslist').append("<a href='https://kushalarya.github.io/camera-app?img=data_" + k + "' > Image " + k + "</a><br/></br>" );
       }
 
     }
